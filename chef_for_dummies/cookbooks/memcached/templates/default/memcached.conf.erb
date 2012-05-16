@@ -1,0 +1,8 @@
+# memcached default config file
+-d
+logfile /var/log/memcached.log
+-m 296
+-p <%= @port %>
+-u nobody
+-l 127.0.0.1
+-P /var/run/memcached.pid
